@@ -69,21 +69,362 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
-/* line 5, ../sass/parts/_layout.scss */
+/* line 4, ../sass/parts/_layout.scss */
+.fuck {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 6, ../sass/parts/_layout.scss */
 body {
   font-family: Arial, Tahoma, Verdana, Helvetica, Serif, sans-serif, Monospace, 微软雅黑;
   font-size: 62.5%;
-  background: #444444;
+  background: #ededed;
+}
+
+/* line 8, ../sass/parts/_layout.scss */
+#main {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+/* line 2, ../sass/parts/_font.scss */
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+/* line 2, ../sass/parts/_font.scss */
+h2 {
+  font-size: 2.3em;
+  font-weight: bold;
+}
+
+/* line 2, ../sass/parts/_font.scss */
+h3 {
+  font-size: 2.1em;
+  font-weight: bold;
+}
+
+/* line 2, ../sass/parts/_font.scss */
+h4 {
+  font-size: 1.9em;
+  font-weight: bold;
+}
+
+/* line 2, ../sass/parts/_font.scss */
+h5 {
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+/* line 2, ../sass/parts/_font.scss */
+h6 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* line 5, ../sass/parts/_font.scss */
+.redFont {
+  color: #e63e5b;
+  text-decoration: none;
+}
+/* line 10, ../sass/moudles/_font.scss */
+.redFont a:link {
+  color: #e63e5b;
+  text-decoration: none;
+}
+/* line 11, ../sass/moudles/_font.scss */
+.redFont a:visited {
+  color: #e63e5b;
+  text-decoration: none;
+}
+/* line 12, ../sass/moudles/_font.scss */
+.redFont a:hover {
+  color: #f4a542;
+  text-decoration: none;
+}
+
+/* line 9, ../sass/parts/_font.scss */
+.grayFont {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 10, ../sass/moudles/_font.scss */
+.grayFont a:link {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 11, ../sass/moudles/_font.scss */
+.grayFont a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 12, ../sass/moudles/_font.scss */
+.grayFont a:hover {
+  color: #f4a542;
+  text-decoration: none;
+}
+
+/* line 10, ../sass/parts/_font.scss */
+.blackFont {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 10, ../sass/moudles/_font.scss */
+.blackFont a:link {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 11, ../sass/moudles/_font.scss */
+.blackFont a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 12, ../sass/moudles/_font.scss */
+.blackFont a:hover {
+  color: #f4a542;
+  text-decoration: none;
+}
+
+/* line 11, ../sass/parts/_font.scss */
+.lightGray {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 10, ../sass/moudles/_font.scss */
+.lightGray a:link {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 11, ../sass/moudles/_font.scss */
+.lightGray a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 12, ../sass/moudles/_font.scss */
+.lightGray a:hover {
+  color: #f4a542;
+  text-decoration: none;
+}
+
+/* line 13, ../sass/parts/_font.scss */
+.blue {
+  color: #1482be;
+  text-decoration: none;
+}
+/* line 10, ../sass/moudles/_font.scss */
+.blue a:link {
+  color: #1482be;
+  text-decoration: none;
+}
+/* line 11, ../sass/moudles/_font.scss */
+.blue a:visited {
+  color: #1482be;
+  text-decoration: none;
+}
+/* line 12, ../sass/moudles/_font.scss */
+.blue a:hover {
+  color: #f4a542;
+  text-decoration: none;
+}
+/* line 15, ../sass/parts/_font.scss */
+.blue a:visited {
+  color: #1482be;
+}
+/* line 16, ../sass/parts/_font.scss */
+.blue a:hover {
+  text-decoration: underline;
+}
+
+/* line 19, ../sass/parts/_font.scss */
+.blueLink {
+  color: #1482be;
+  text-decoration: none;
+}
+/* line 10, ../sass/moudles/_font.scss */
+.blueLink a:link {
+  color: #1482be;
+  text-decoration: none;
+}
+/* line 11, ../sass/moudles/_font.scss */
+.blueLink a:visited {
+  color: #1482be;
+  text-decoration: none;
+}
+/* line 12, ../sass/moudles/_font.scss */
+.blueLink a:hover {
+  color: #f4a542;
+  text-decoration: none;
+}
+/* line 21, ../sass/parts/_font.scss */
+.blueLink a:visited {
+  color: #1482be;
+}
+/* line 22, ../sass/parts/_font.scss */
+.blueLink a:hover {
+  text-decoration: underline;
+}
+
+/* line 25, ../sass/parts/_font.scss */
+.txtLeft {
+  text-align: left !important;
+}
+
+/* line 27, ../sass/parts/_font.scss */
+.orangeFont {
+  color: #f4a542;
+  text-decoration: none;
+}
+/* line 10, ../sass/moudles/_font.scss */
+.orangeFont a:link {
+  color: #f4a542;
+  text-decoration: none;
+}
+/* line 11, ../sass/moudles/_font.scss */
+.orangeFont a:visited {
+  color: #f4a542;
+  text-decoration: none;
+}
+/* line 12, ../sass/moudles/_font.scss */
+.orangeFont a:hover {
+  color: #f4a542;
+  text-decoration: none;
+}
+
+/* line 28, ../sass/parts/_font.scss */
+.blueFont {
+  color: #1482be;
+  text-decoration: none;
+}
+/* line 10, ../sass/moudles/_font.scss */
+.blueFont a:link {
+  color: #1482be;
+  text-decoration: none;
+}
+/* line 11, ../sass/moudles/_font.scss */
+.blueFont a:visited {
+  color: #1482be;
+  text-decoration: none;
+}
+/* line 12, ../sass/moudles/_font.scss */
+.blueFont a:hover {
+  color: #f4a542;
+  text-decoration: none;
+}
+
+/* line 29, ../sass/parts/_font.scss */
+.greenFont {
+  color: #6cb74e;
+  text-decoration: none;
+}
+/* line 10, ../sass/moudles/_font.scss */
+.greenFont a:link {
+  color: #6cb74e;
+  text-decoration: none;
+}
+/* line 11, ../sass/moudles/_font.scss */
+.greenFont a:visited {
+  color: #6cb74e;
+  text-decoration: none;
+}
+/* line 12, ../sass/moudles/_font.scss */
+.greenFont a:hover {
+  color: #f4a542;
+  text-decoration: none;
+}
+
+/* line 30, ../sass/parts/_font.scss */
+.whiteFont {
+  color: #ededed;
+  text-decoration: none;
+}
+/* line 10, ../sass/moudles/_font.scss */
+.whiteFont a:link {
+  color: #ededed;
+  text-decoration: none;
+}
+/* line 11, ../sass/moudles/_font.scss */
+.whiteFont a:visited {
+  color: #ededed;
+  text-decoration: none;
+}
+/* line 12, ../sass/moudles/_font.scss */
+.whiteFont a:hover {
+  color: #f4a542;
+  text-decoration: none;
+}
+
+/* line 31, ../sass/parts/_font.scss */
+.cyanFont {
+  color: #336666;
+  text-decoration: none;
+}
+/* line 10, ../sass/moudles/_font.scss */
+.cyanFont a:link {
+  color: #336666;
+  text-decoration: none;
+}
+/* line 11, ../sass/moudles/_font.scss */
+.cyanFont a:visited {
+  color: #336666;
+  text-decoration: none;
+}
+/* line 12, ../sass/moudles/_font.scss */
+.cyanFont a:hover {
+  color: #f4a542;
+  text-decoration: none;
 }
 
 /* line 1, ../sass/partials/_head.scss */
 .top {
   width: 100%;
-  height: 4em;
-  background: #333333;
-  border-bottom: 2px solid #f4a542;
+}
+/* line 4, ../sass/partials/_head.scss */
+.top a:link {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 5, ../sass/partials/_head.scss */
+.top a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 6, ../sass/partials/_head.scss */
+.top a:hover {
+  color: #f4a542;
+  text-decoration: none;
+}
+/* line 8, ../sass/partials/_head.scss */
+.top .head {
+  width: 980px;
+  margin: 0 auto;
+  color: #666666;
+}
+/* line 12, ../sass/partials/_head.scss */
+.top .head .logo {
+  width: 24%;
+  font-size: 3em;
+  padding: 0.5em 0 0 0;
+  float: left;
+}
+/* line 18, ../sass/partials/_head.scss */
+.top .head .nav {
+  width: 75%;
+  float: right;
+  padding: 2em 0 0 0;
+  font-size: 1.4em;
+}
+/* line 23, ../sass/partials/_head.scss */
+.top .head .nav li {
+  width: 15%;
+  float: right;
+  text-align: right;
 }
 
 /* line 1, ../sass/partials/_middle.scss */
@@ -91,6 +432,83 @@ body {
   width: 980px;
   height: 100%;
   margin: 0 auto;
-  background: #444;
+  padding-bottom: 20em;
+  text-align: center;
+  background: #ededed;
   color: #666666;
+}
+/* line 9, ../sass/partials/_middle.scss */
+.middle .half {
+  height: 10em;
+  line-height: 20em;
+  text-align: center;
+}
+/* line 10, ../sass/partials/_middle.scss */
+.middle .nav {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10em 0;
+}
+/* line 11, ../sass/partials/_middle.scss */
+.middle .nav table {
+  text-align: center;
+}
+/* line 13, ../sass/partials/_middle.scss */
+.middle .nav table td {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.5em;
+  width: 13%;
+}
+/* line 18, ../sass/partials/_middle.scss */
+.middle .nav table td a {
+  padding: 1em 0;
+}
+/* line 19, ../sass/partials/_middle.scss */
+.middle .nav table td a:link {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 20, ../sass/partials/_middle.scss */
+.middle .nav table td a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 21, ../sass/partials/_middle.scss */
+.middle .nav table td a:hover {
+  color: #f4a542;
+  text-decoration: none;
+  border-bottom: 2px solid #f4a542;
+}
+/* line 24, ../sass/partials/_middle.scss */
+.middle .nav table img {
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -ms-transition-property: -ms-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 37, ../sass/partials/_middle.scss */
+.middle .nav table img:hover {
+  -webkit-transform: rotate(3deg) scale(1.3);
+  -moz-transform: rotate(3deg) scale(1.3);
+  -ms-transform: rotate(3deg) scale(1.3);
+  -o-transform: rotate(3deg) scale(1.3);
+  transform: rotate(3deg) scale(1.3);
+}
+
+/* line 1, ../sass/partials/_foot.scss */
+.foot {
+  position: relative;
+  margin-top: -20em;
+  /*等于footer的高度*/
+  height: 20em;
+  width: 100%;
+  background: #333;
+  clear: both;
 }
