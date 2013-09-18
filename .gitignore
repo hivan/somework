@@ -37,3 +37,4 @@ Thumbs.db
 *.sass
 *.scss
 *.scssc
+sass/*s
