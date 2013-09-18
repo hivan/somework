@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 17, ../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -68,4 +69,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 html, body {
   margin: 0;
   padding: 0;
+}
+
+/* line 5, ../sass/parts/_layout.scss */
+body {
+  font-family: Arial, Tahoma, Verdana, Helvetica, Serif, sans-serif, Monospace, 微软雅黑;
+  font-size: 62.5%;
+  background: #444444;
+}
+
+/* line 1, ../sass/partials/_head.scss */
+.top {
+  width: 100%;
+  height: 4em;
+  background: #333333;
+  border-bottom: 2px solid #f4a542;
+}
+
+/* line 1, ../sass/partials/_middle.scss */
+.middle {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  background: #444;
+  color: #666666;
 }

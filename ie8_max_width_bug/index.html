@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>IE 8 max-width bug</title>
+</head>
+<body>
+  <h2>效果对比</h2>
+  <h3>请在IE 8下查看效果不同</h3>
+
+  <strong>传统做法:</strong>
+  <style>
+  .imgBox{
+    width:200px;
+    height:200px;
+    text-align:center;
+    display:table;
+    border: 1px solid #aaa;
+  }
+  .imgBox span{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .imgBox span img{
+    max-height: 198px;
+    max-width: 198px;
+  }
+  </style>
+  <div class="imgBox">
+    <span><img src="http://farm4.staticflickr.com/3707/9780411583_33c1891e63_o.jpg"></span>
+  </div>
+  <br />
+  <strong>另类完美解决做法:</strong>
+  <style>
+      table.imgTable .imgTb { vertical-align: middle; width: 200px; height:200px; border: 1px solid #ddd; text-align: center;}
+
+      img.image { max-width: 200px; max-height: 200px; margin:0 auto; }
+      div.imageBox { width: 1px;  }
+  </style>
+  <body>
+  <table class="imgTable">
+      <tr>
+          <td class="imgTb">
+              <div class="imageBox">
+                  <img src="http://farm4.staticflickr.com/3707/9780411583_33c1891e63_o.jpg" class="image" />
+              </div>
+          </td>
+      </tr>
+  </table>
+</body>
+</html>
+
+
